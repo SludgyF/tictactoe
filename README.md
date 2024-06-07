@@ -19,3 +19,8 @@ Contamos con 3 versiones
 1. una para jugar con la computadora con el nombre de Maquina.pl.
 2. otra con el nombre de Duo.pl para jugar entre 2 personas.
 3. la tercera llamada GatoUI es nuesta version inicial, aqui la interfaz no luce tan bien.
+
+
+## Herramientas o recursos de investigacion que utilizamos
+- The Art of Prolog (Leon Sterling and Ehud Shapiro) for logic
+- gpt 3.5 for corrections
