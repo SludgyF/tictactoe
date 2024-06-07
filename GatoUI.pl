@@ -5,7 +5,7 @@ crear_interfaz :-
     new(@main, dialog('Gato')),
     send(@main, size, size(300, 300)),
     
-    % Define buttons for the board cells
+    % Definimos los botones para los espacios
     new(@btn1, button(1, message(@prolog, hacer_movimiento, 1))),
     send(@main, display, @btn1, point(50, 50)),
 
@@ -33,11 +33,11 @@ crear_interfaz :-
     new(@btn9, button(9, message(@prolog, hacer_movimiento, 9))),
     send(@main, display, @btn9, point(200, 200)),
     
-    % Define a button to restart the game
+    % Definimos un boton para reiniciar el juego
     new(@reset_btn, button('Reiniciar', message(@prolog, reiniciar_juego))),
     send(@main, display, @reset_btn, point(100, 250)),
     
-    % Open the window
+    % Abre la ventana
     send(@main, open).
 
 % Se inicia el tablero vacio
